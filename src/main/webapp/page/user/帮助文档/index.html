@@ -1,0 +1,422 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Record - www.bootstrapmb.com </title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <link rel="stylesheet" href="assets/css/prism.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/skin-blue.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- All dynamic styles -->
+        <style type="text/css">
+        
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+     
+
+          </head>
+  <body class="skin-blue fixed" data-spy="scroll" data-target="#scrollspy">
+
+
+    
+    <div class="xdocs-pre-loader"></div>    <div class="wrapper">
+      <header class="main-header">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+      </header>
+      <!-- Left side column. contains the logo and sidebar --><aside class="main-sidebar">
+    
+  <!-- sidebar: style can be found in sidebar.less -->
+  <div class="sidebar" id="scrollspy">
+    <!-- sidebar menu: : style can be found in sidebar.less -->
+    <ul class="nav sidebar-menu">
+      <li class="active"><a href="#introduction">Introduction</a>
+
+                  
+                             
+
+               <li class=""><a href="#directory-structure">Directory Structure</a>
+
+                    
+              
+                             
+
+               <li class=""><a href="#partials">Partials</a>
+
+                    
+              
+                 
+                   <li class="treeview" id="scrollspy-components"><a href="#">Installation</a>
+                  <ul class="nav treeview-menu"><li class=""><a href="#get-started">Get started</a><li class=""><a href="#installing-gulp-4-globally">Installing gulp 4 globally</a><li class=""><a href="#installtion">Installtion</a></ul>                </li>
+
+              
+              
+                             
+
+               <li class=""><a href="#npm-install-failed">NPM install failed?</a>
+
+                    
+              
+                             
+
+               <li class=""><a href="#production-versions">Production Versions</a>
+
+                    
+              
+                             
+
+               <li class=""><a href="#colors">Colors</a>
+
+                    
+              
+                             
+
+               <li class=""><a href="#layouts">Layouts</a>
+
+                    
+              
+                 
+                   <li class="treeview" id="scrollspy-components"><a href="#">Player Settings</a>
+                  <ul class="nav treeview-menu"><li class=""><a href="#how-to-make-playlist">How to make playlist</a><li class=""><a href="#generate-wave">Generate Wave</a></ul>                </li>
+
+              
+              
+                             
+
+               <li class=""><a href="#easy-deploy">Easy Deploy</a>
+
+                    
+              
+                             
+
+               <li class=""><a href="#compress-images">Compress Images</a>
+
+                    
+              
+                             
+
+               <li class=""><a href="#plugins">Plugins</a>
+
+                    
+              
+            </ul>
+          </div>
+    </aside>
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Main content -->
+    <div class="content body">
+
+
+         <!-- Introduction Section -->
+          <section id="introduction">
+            <div class='section-content'>
+              <div class="content-header">
+                <h1>Record Music Event Multipurpose HTML Template</h1>
+                              <div class="version"> Version 1.0.0</div>
+                       </div>
+              <div class="row">
+                <div class="col-sm-12">
+                                   </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-12">
+                     <p>Thank you for purchasing this template. We covered almost everything in this document that how easily you can set up. If you have any questions that<br />
+are beyond the scope of this help file, please feel free to contact us.</p>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Introduction Section -->
+
+
+  <section id="directory-structure" class="stickem-container">
+  <div class='section-content'><h2 class='page-header'><a href='#directory-structure' class='header-link'><i class='fa fa-link'></i></a>Directory Structure</h2><p>Download and extract zip files. You will find basic development structure like this.</p>
+<ul>
+<li><i class="xicon xicon-folder5"></i> app
+<ul>
+<li>src
+<ul>
+<li><i class="xicon xicon-folder5"></i>assets</li>
+<li>partials</li>
+<li>*.*_files.html</li>
+</ul>
+</li>
+<li>gulpfile.js</li>
+<li>package.json</li>
+</ul>
+</li>
+</ul>
+</div>  </section>
+
+  <section id="partials" class="stickem-container">
+  <div class='section-content'><h2 class='page-header'><a href='#partials' class='header-link'><i class='fa fa-link'></i></a>Partials</h2><section id="structure" class="">
+<section id="partials">
+<div class="row">
+<div class="col-md-12">
+<p>Paper is using partials folder to inject some common html files like header and<br />
+footer.</p>
+<table class="table table-bordered table-striped">
+<tbody>
+<tr>
+<th scope="row"><code>_head.html</code></th>
+<td>Basic HTML meta tags and everything that could be in <code>&lt;head&gt;&lt;/head&gt;</code></td>
+</tr>
+<tr>
+<th scope="row"><code>_foot.html</code></th>
+<td>Body &amp; wrapper close</td>
+</tr>
+<tr>
+<th scope="row"><code>_header.html</code></th>
+<td>Main Navigation or menu</td>
+</tr>
+<tr>
+<th scope="row"><code>_playlist.html</code></th>
+<td>Responsible for site right side playlist</td>
+</tr>
+<tr>
+<th scope="row"><code>_footer.html</code></th>
+<td>Footer of your site.</td>
+</tr>
+<tr>
+<th scope="row"><code>_script.html</code></th>
+<td>Responsible for all site scripts</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</section>
+<div id="installation">
+<div class="row">
+<div class="col-md-12">
+<h4></h4>
+</div>
+</div>
+</div>
+</div>  </section>
+
+  <section id="installation" class="stickem-container">
+  <div class='section-content'><h2 class='page-header'><a href='#installation' class='header-link'><i class='fa fa-link'></i></a>Installation</h2><div id='get-started' class='step-content clearfix'><h3 class='steps-header'><a href='#get-started'>Get started</a></h3><p>You may need following things to get started. Please download and install<br />
+dependencies</p>
+<ul class="arrow-list">
+<li>To install Paper Knowlegebase please make sure you have installed node and gulp.</li>
+</ul>
+<a class="btn btn-sm btn-info" href="https://nodejs.org/en/download/">Download Node</a>
+<p>&nbsp;</p>
+<ul class="arrow-list">
+<li>You can use any software of your choice to edit HTML files or</li>
+</ul>
+<a class="btn btn-sm btn-success" href="https://code.visualstudio.com/">Download VS Code</a>
+</div><div id='installing-gulp-4-globally' class='step-content clearfix'><h3 class='steps-header'><a href='#installing-gulp-4-globally'>Installing gulp 4 globally</a></h3><p>You will need to remove your current gulp global package before installing v4 in order to<br />
+do an upgrade.</p>
+<div class="alert alert-info">
+<p><em><strong>Note:</strong> The <code>$</code> shows the command is to be run on the<br />
+command line and shouldn’t be typed</em></p>
+</div>
+<pre class=" language-bash"><code class=" language-bash">$ npm <span class="token function">rm</span> -g gulp
+$ npm <span class="token function">install</span> -g gulp-cli</code></pre>
+<p>This command removes your current global package and installs v4 from the gulp-cli 4.0<br />
+branch.</p>
+<p>Make sure you don&#8217;t get any errors from the first command before you type the second.<br />
+Depending on your set-up, you may need to run them with <code>sudo</code>.</p>
+<p>To verify what version you have installed globally, you can run the below command (and<br />
+should see a similar output)</p>
+<pre class="“” language-git"><code class=" language-git">$ gulp -v
+CLI version 1.2.1</code></pre>
+</div><div id='installtion' class='step-content clearfix'><h3 class='steps-header'><a href='#installtion'>Installtion</a></h3><p>It&#8217;s time to open Paper  HTML app folder to your favorite editor. It&#8217;s easy to use an<br />
+editor which have terminal. Like VS Code or PhpStrom</p>
+<p>First of all install all node modules by using this command:</p>
+<pre><code>$ npm install</code></pre>
+<p>&nbsp;</p>
+<p>After all node modules installation completed run</p>
+<pre><code>gulp watch</code></pre>
+<p>gulp watch will create a temporary folder with name of <em>tmp</em></p>
+<div class="alert alert-info">
+<p>only change content in <span style="color: #ff0000;"><strong><em>src</em></strong> </span>folder tmp folder is just for preview.</p>
+</div>
+</div></div>  </section>
+
+  <section id="npm-install-failed" class="stickem-container">
+  <div class='section-content'><h2 class='page-header'><a href='#npm-install-failed' class='header-link'><i class='fa fa-link'></i></a>NPM install failed?</h2><p>Please make sure you have the latest version of gulp CLI. You will need to remove your current gulp global package before installing v4 in order to do an upgrade.</p>
+<pre># Uninstall previous Gulp installation and related packages, if any
+$ npm rm gulp -g
+$ npm rm gulp-cli -g
+$ cd [your-project-dir/]
+$ npm rm gulp --save-dev
+$ npm rm gulp --save
+$ npm rm gulp --save-optional
+$ npm cache clean
+
+# Install the latest Gulp CLI tools globally
+$ npm install gulpjs/gulp-cli -g
+
+# Install Gulp 4 into your project from 4.0 GitHub branch as dev dependency
+$ npm install gulpjs/gulp#4.0 --save-dev
+
+# Check the versions installed. Make sure your versions are not lower than shown.
+$ gulp -v
+---
+[10:48:35] CLI version 1.2.2
+[10:48:35] Local version 4.0.0-alpha.2
+</pre>
+</div>  </section>
+
+  <section id="production-versions" class="stickem-container">
+  <div class='section-content'><h2 class='page-header'><a href='#production-versions' class='header-link'><i class='fa fa-link'></i></a>Production Versions</h2><p>After all changes you need to create production version of your product</p>
+<pre><code>$ gulp production</code></pre>
+<p>&nbsp;</p>
+<h4>Creating Minified Version</h4>
+<p>If you want a minified version then run</p>
+<pre><code>$ gulp production-min</code></pre>
+<p>Above command will create a new folder &#8220;dist&#8221; it will be fully optimized. It will<br />
+compress and minify all of your html, css and js files. You can copy folder to your ftp<br />
+or framework to use it.</p>
+</div>  </section>
+
+  <section id="colors" class="stickem-container">
+  <div class='section-content'><h2 class='page-header'><a href='#colors' class='header-link'><i class='fa fa-link'></i></a>Colors</h2><p>To change the color of any component section or element please add a color class.  For example to change a card color background add class blue. For all colors classes list please check </p>
+<pre>Extras &gt; Colors</pre>
+<p> page in demo.</p>
+</div>  </section>
+
+  <section id="layouts" class="stickem-container">
+  <div class='section-content'><h2 class='page-header'><a href='#layouts' class='header-link'><i class='fa fa-link'></i></a>Layouts</h2><div class="row">
+<div class="col-md-6">
+<h4>Bootom Bar</h4>
+<p><img src="http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record.jpg" alt="" width="2880" height="1562" class="alignright size-full wp-image-487" srcset="http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record.jpg 2880w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record-300x163.jpg 300w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record-768x417.jpg 768w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record-1024x555.jpg 1024w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record-1200x651.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /><br />
+For bottom bar just add <code>navbar-bottom-fixed</code> class in <code>nav</code> tag
+</div>
+<div class="col-md-6">
+<h4>Top Bar</h4>
+<p><img src="http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record1.jpg" alt="" width="2880" height="1562" class="alignright size-full wp-image-486" srcset="http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record1.jpg 2880w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record1-300x163.jpg 300w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record1-768x417.jpg 768w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record1-1024x555.jpg 1024w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record1-1200x651.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /><br />
+For top bar just remove navbar-bottom-fixed class
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<h4>RTL Layout</h4>
+<p><img src="http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record2.jpg" alt="" width="2880" height="1562" class="alignright size-full wp-image-485" srcset="http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record2.jpg 2880w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record2-300x163.jpg 300w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record2-768x417.jpg 768w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record2-1024x555.jpg 1024w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record2-1200x651.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /><br />
+For RTL Layout just add <code>dir="rtl"</code> in <code>html</code> tag</p>
+</div>
+<div class="col-md-6">
+<h4>Light Skin</h4>
+<p><img src="http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record4.jpg" alt="" width="2880" height="1562" class="alignright size-full wp-image-483" srcset="http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record4.jpg 2880w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record4-300x163.jpg 300w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record4-768x417.jpg 768w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record4-1024x555.jpg 1024w, http://xvelopers.com/wp/themes/docs/wp-content/uploads/sites/24/2019/02/Screenshot_2019-02-16-Record4-1200x651.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /><br />
+For light skin just remove theme-dark class from body tag
+</div>
+</div>
+</div>  </section>
+
+  <section id="player-settings" class="stickem-container">
+  <div class='section-content'><h2 class='page-header'><a href='#player-settings' class='header-link'><i class='fa fa-link'></i></a>Player Settings</h2><div id='how-to-make-playlist' class='step-content clearfix'><h3 class='steps-header'><a href='#how-to-make-playlist'>How to make playlist</a></h3><p>For player template is using <a href="https://wavesurfer-js.org/" target="_blank">wavesurfer library</a>.</p>
+<p>To make a playlist add <code>playlist </code> class in wrapper and for each track<br />
+and then add hyper links and track waves URL.</p>
+<pre><code>
+
+&lt;ul id="playlist" class="playlist list-group"&gt;
+&nbsp;&nbsp;&nbsp;&lt;li class="list-group-item my-1"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="no-ajaxy media-url" href="assets/media/track1.mp3" data-wave="assets/media/track1.json"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="d-flex justify-content-between align-items-center"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;i class="icon-play s-28"&gt;&lt;/i&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figure class="avatar-md float-left mr-3 mt-1"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img class="r-5" src="assets/img/demo/a1.jpg" alt=""&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figure&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h6&gt;alexander Pierce&lt;/h6&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Atif Aslam
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="badge badge-primary badge-pill"&gt; 5:03&lt;/span&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/a&gt;
+&nbsp;&nbsp;&nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+
+</code></pre>
+</div><div id='generate-wave' class='step-content clearfix'><h3 class='steps-header'><a href='#generate-wave'>Generate Wave</a></h3><p>If you will not provide <code>date-wave</code> attribute with a url of track peaks it will automatilcally generate wave for the track but the down side is each track will be downloaded first. And it will slow the process so how to fix it.?</p>
+<p>The best way is to generate peaks and just add peaks url with each track. </p>
+<h2>How to generate waveform data on the server?</h2>
+<p>
+    You can use the <a href="https://github.com/bbcrd/audiowaveform">audiowaveform</a> program. For example:</p>
+<pre><code class="hljs css"><span class="hljs-selector-tag">audiowaveform</span> <span class="hljs-selector-tag">-i</span> <span class="hljs-selector-tag">some-file</span><span class="hljs-selector-class">.mp3</span> <span class="hljs-selector-tag">--pixels-per-second</span> 10 <span class="hljs-selector-tag">-b</span> 8 <span class="hljs-selector-tag">-o</span> <span class="hljs-selector-tag">some-file</span><span class="hljs-selector-class">.json</span></code></pre>
+</div></div>  </section>
+
+  <section id="easy-deploy" class="stickem-container">
+  <div class='section-content'><h2 class='page-header'><a href='#easy-deploy' class='header-link'><i class='fa fa-link'></i></a>Easy Deploy</h2><div id="production">
+<div class="row">
+<div class="col-md-12">If you are using version 1.5 or later you can use easy deploy option to upload all files<br />
+to your ftp server with just one commnand.Please make sure to run gulp watch first and make changes before you do this and you<br />
+have to add your server details to upload file. Please open ftp.config and add your<br />
+server details.</p>
+<pre><code>$ gulp deploy</code></pre>
+</div>
+</div>
+</div>
+<div id="main_menu">
+<div class="row">
+<div class="col-md-12">
+<h4></h4>
+</div>
+</div>
+</div>
+</div>  </section>
+
+  <section id="compress-images" class="stickem-container">
+  <div class='section-content'><h2 class='page-header'><a href='#compress-images' class='header-link'><i class='fa fa-link'></i></a>Compress Images</h2><p>To speed your site you may need to compress some of your images. For that run<br />
+command:</p>
+<pre><code>$ gulp img-compress</code></pre>
+<p>images in demo folder will be compressed only. you must first create production version.<br />
+you can change folder name in gulpfile.js if you want.</p>
+</div>  </section>
+
+  <section id="plugins" class="stickem-container">
+  <div class='section-content'><h2 class='page-header'><a href='#plugins' class='header-link'><i class='fa fa-link'></i></a>Plugins</h2><ul class="list-group">
+<li class="list-group-item">Bootstrap 4</li>
+<li class="list-group-item"><a href="http://sachinchoolur.github.io/lightslider/index.html">Light Slider</a></li>
+<li class="list-group-item"><a href="http://jackonthe.net/css3animateit/">CSS3<br />
+Animations</a></li>
+<li class="list-group-item"><a href="https://wavesurfer-js.org/">wavesurfer.js</a></li>
+<li class="list-group-item">Snackbar</li>
+</ul>
+</div>  </section>
+
+    </div><!-- /.content -->
+</div><!-- /.content-wrapper -->
+      
+
+  <footer class="main-footer">
+
+      <div class="pull-right hidden-xs">
+                        <div class="version"> Version 1.0.0</div>
+               </div>
+
+      </footer>
+
+
+</div><!-- ./wrapper -->
+
+
+    <script src="assets/js/jQuery-2.2.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/jquery.stickem.js"></script>
+    <script src="assets/js/jquery.slimscroll.min.js"></script>
+    <script src="assets/js/prism.js"></script>
+    <script src="assets/js/docs.js"></script>
+    </body>
+</html>
